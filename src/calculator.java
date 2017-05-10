@@ -52,6 +52,8 @@ public class calculator {
         divideTbl.addActionListener(new OperationBtnClicked(Operation.DIVISION));
         minusTbl.addActionListener(new OperationBtnClicked(Operation.SUBTRACTION));
         plusTbl.addActionListener(new OperationBtnClicked(Operation.ADDITION));
+        akarTbl.addActionListener(new OperationBtnClicked(Operation.AKAR));
+        pangkatTbl.addActionListener(new OperationBtnClicked(Operation.PANGKAT));
         equalsTbl.addActionListener(new EqualsBtnClicked());
         deleteTbl.addActionListener(new ClearBtnClicked());
         plusminusTbl.addActionListener(new SignBtnClicked());
